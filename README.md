@@ -1,24 +1,19 @@
 <div align="center">
-
-<!-- Animated typing header — way more unique than a static wave -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&multiline=true&width=700&height=80&lines=Hey+there%2C+I'm+Tejasa+%F0%9F%91%8B;Senior+Software+Engineer+%7C+Builder+%7C+Learner)](https://git.io/typing-svg)
-
-<!-- Animated tech GIF to the right feel — inline with intro -->
-<img align="right" alt="Coding" width="340" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif"/>
-
+<img src="https://raw.githubusercontent.com/TejasaYalla/TejasaYalla/main/header.svg" width="100%" alt="Tejasa Yalla"/>
 </div>
 
-<br/>
+---
+
+<img align="right" alt="Coding" width="320" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif"/>
 
 ```ts
 const tejasa = {
   role      : "Senior Software Engineer",
   location  : "Available across the USA 🇺🇸",
-  stack     : ["Go", "Python", "Java", "Node.js", "React", "Next.js", "AWS"],
   currently : "Building RAG pipelines & LLM-powered tools",
-  learning  : "AI engineering · Cloud-native patterns · Vector DBs",
-  ask_me    : "Go concurrency · REST APIs · AWS serverless · React",
-  reach_me  : "tejasa2599@gmail.com",
+  learning  : "AI engineering · Cloud-native · Vector DBs",
+  ask_me    : "Go concurrency · REST APIs · AWS serverless",
+  email     : "tejasa2599@gmail.com",
   fun_fact  : "I debug with coffee ☕ and fix with intuition ✨"
 };
 ```
@@ -58,7 +53,6 @@ const tejasa = {
 |---|---|
 | [![Tejasa's GitHub stats](https://github-readme-stats.vercel.app/api?username=TejasaYalla&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)](https://github.com/TejasaYalla) | [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TejasaYalla&layout=compact&theme=tokyonight&hide_border=true&langs_count=6)](https://github.com/TejasaYalla) |
 
-<!-- GitHub Streak -->
 <div align="center">
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=TejasaYalla&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
@@ -69,11 +63,10 @@ const tejasa = {
 
 ### 🐍 Watch the snake eat my contributions
 
-<!-- STEP REQUIRED: Set up the GitHub Action below to generate this SVG -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TejasaYalla/TejasaYalla/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TejasaYalla/TejasaYalla/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/TejasaYalla/TejasaYalla/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TejasaYalla/TejasaYalla/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TejasaYalla/TejasaYalla/output/github-snake.svg"/>
+  <img alt="github-snake" src="https://raw.githubusercontent.com/TejasaYalla/TejasaYalla/output/github-snake.svg"/>
 </picture>
 
 ---
