@@ -1,59 +1,86 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=wave&color=gradient&customColorList=12,20,24&height=200&text=Tejasa%20Yalla&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Senior%20Software%20Engineer%20%7C%20Go%20%C2%B7%20Python%20%C2%B7%20React%20%C2%B7%20AWS&descAlignY=58&descSize=18)
+<!-- Animated typing header — way more unique than a static wave -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&multiline=true&width=700&height=80&lines=Hey+there%2C+I'm+Tejasa+%F0%9F%91%8B;Senior+Software+Engineer+%7C+Builder+%7C+Learner)](https://git.io/typing-svg)
 
-✨  
-*"The best way to predict the future is to build it."*  
-🖥️
+<!-- Animated tech GIF to the right feel — inline with intro -->
+<img align="right" alt="Coding" width="340" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif"/>
+
+</div>
+
+<br/>
+
+```ts
+const tejasa = {
+  role      : "Senior Software Engineer",
+  location  : "Available across the USA 🇺🇸",
+  stack     : ["Go", "Python", "Java", "Node.js", "React", "Next.js", "AWS"],
+  currently : "Building RAG pipelines & LLM-powered tools",
+  learning  : "AI engineering · Cloud-native patterns · Vector DBs",
+  ask_me    : "Go concurrency · REST APIs · AWS serverless · React",
+  reach_me  : "tejasa2599@gmail.com",
+  fun_fact  : "I debug with coffee ☕ and fix with intuition ✨"
+};
+```
+
+<br clear="right"/>
 
 ---
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=flat)](https://linkedin.com/in/tejasayalla)
-[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?logo=LeetCode&logoColor=black&style=flat)](https://leetcode.com/TejasaYalla)
-[![Email](https://img.shields.io/badge/-Email-EA4335?logo=gmail&logoColor=white&style=flat)](mailto:tejasayalla@gmail.com)
-![Profile Views](https://komarev.com/ghpvc/?username=TejasaYalla&label=Profile+views&color=0e75b6&style=flat)
+### 🧰 What I build with
+
+**Backend & Cloud**  
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+
+**Frontend**  
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+
+**AI / ML**  
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+
+---
+
+### 📊 My GitHub Stats
+
+| ***GitHub Stats*** | ***Top Languages*** |
+|---|---|
+| [![Tejasa's GitHub stats](https://github-readme-stats.vercel.app/api?username=TejasaYalla&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)](https://github.com/TejasaYalla) | [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TejasaYalla&layout=compact&theme=tokyonight&hide_border=true&langs_count=6)](https://github.com/TejasaYalla) |
+
+<!-- GitHub Streak -->
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=TejasaYalla&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
 
 </div>
 
 ---
 
-```
-👋  Hi, I'm Tejasa Yalla — Senior Software Engineer based in Phoenix, AZ
-⚡  I build scalable backend systems, fintech platforms, and full-stack SaaS products
-🔭  Currently exploring: RAG pipelines, LLM integrations, and AI-powered tooling
-🛠️  Stack: Go · Python · React · AWS · PostgreSQL · Docker
-🌱  Always learning — right now deep in AI engineering and cloud-native patterns
-💬  Ask me about: Go concurrency, REST API design, AWS serverless, React
-📫  Open to senior SWE & AI engineering roles · Requires visa sponsorship
-```
+### 🐍 Watch the snake eat my contributions
+
+<!-- STEP REQUIRED: Set up the GitHub Action below to generate this SVG -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TejasaYalla/TejasaYalla/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TejasaYalla/TejasaYalla/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/TejasaYalla/TejasaYalla/output/github-snake.svg" />
+</picture>
 
 ---
 
-### Languages and Tools
+### 🤝 Find me at
 
-[![Go](https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg)](https://golang.org)&nbsp;
-[![Python](https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg)](https://www.python.org)&nbsp;
-[![React](https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg)](https://reactjs.org)&nbsp;
-[![TypeScript](https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg)](https://www.typescriptlang.org)&nbsp;
-[![AWS](https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg)](https://aws.amazon.com)&nbsp;
-[![Docker](https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg)](https://www.docker.com)&nbsp;
-[![PostgreSQL](https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg)](https://www.postgresql.org)&nbsp;
-[![MongoDB](https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg)](https://www.mongodb.com)&nbsp;
-[![Git](https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg)](https://git-scm.com)&nbsp;
-[![Linux](https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg)](https://www.linux.org)
-
----
-
-### My GitHub Stats
-
-| ***GitHub Stats*** | ***Top Languages*** |
-|---|---|
-| [![Tejasa's GitHub stats](https://github-readme-stats.vercel.app/api?username=TejasaYalla&show_icons=true&theme=aura&hide_border=true&count_private=true)](https://github.com/TejasaYalla) | [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TejasaYalla&layout=compact&theme=aura&hide_border=true&langs_count=6)](https://github.com/TejasaYalla) |
-
----
-
-### Find me at
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/tejasayalla)&nbsp;
-[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?logo=LeetCode&logoColor=black)](https://leetcode.com/TejasaYalla)&nbsp;
-[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?logo=vercel&logoColor=white)](#)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=flat-square)](https://linkedin.com/in/tejasayalla)
+[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?logo=LeetCode&logoColor=black&style=flat-square)](https://leetcode.com/TejasaYalla)
+[![Email](https://img.shields.io/badge/-tejasa2599@gmail.com-EA4335?logo=gmail&logoColor=white&style=flat-square)](mailto:tejasa2599@gmail.com)
+![Profile Views](https://komarev.com/ghpvc/?username=TejasaYalla&label=Profile+views&color=a855f7&style=flat-square)
