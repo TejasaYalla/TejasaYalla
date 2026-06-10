@@ -1,0 +1,142 @@
+<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="40%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#0d0b2e"/>
+      <stop offset="100%" stop-color="#020008"/>
+    </radialGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+
+    <style>
+      @keyframes twinkle1 { 0%,100%{opacity:0.9} 50%{opacity:0.2} }
+      @keyframes twinkle2 { 0%,100%{opacity:0.5} 50%{opacity:1} }
+      @keyframes twinkle3 { 0%,100%{opacity:0.3} 50%{opacity:0.8} }
+      @keyframes comet1 {
+        0%   { transform: translate(-60px, -20px); opacity: 0; }
+        5%   { opacity: 1; }
+        30%  { transform: translate(980px, 200px); opacity: 0.8; }
+        31%  { opacity: 0; transform: translate(980px, 200px); }
+        100% { opacity: 0; transform: translate(-60px, -20px); }
+      }
+      @keyframes comet2 {
+        0%   { transform: translate(-40px, 0px); opacity: 0; }
+        5%   { opacity: 0.7; }
+        25%  { transform: translate(960px, 140px); opacity: 0.5; }
+        26%  { opacity: 0; transform: translate(960px, 140px); }
+        100% { opacity: 0; transform: translate(-40px, 0px); }
+      }
+      @keyframes comet3 {
+        0%   { transform: translate(0px, -10px); opacity: 0; }
+        5%   { opacity: 0.9; }
+        20%  { transform: translate(920px, 120px); opacity: 0; }
+        100% { opacity: 0; transform: translate(0px, -10px); }
+      }
+      @keyframes nebula { 0%,100%{opacity:0.18} 50%{opacity:0.32} }
+      @keyframes fadeup { 0%{opacity:0;transform:translateY(16px)} 100%{opacity:1;transform:translateY(0)} }
+
+      .t1{animation:twinkle1 2.1s ease-in-out infinite}
+      .t2{animation:twinkle2 3.4s ease-in-out infinite}
+      .t3{animation:twinkle3 1.8s ease-in-out infinite}
+      .t4{animation:twinkle1 4.2s ease-in-out infinite 1s}
+      .t5{animation:twinkle2 2.7s ease-in-out infinite 0.6s}
+      .t6{animation:twinkle3 3.1s ease-in-out infinite 1.4s}
+      .t7{animation:twinkle1 1.6s ease-in-out infinite 0.3s}
+      .t8{animation:twinkle2 5s ease-in-out infinite 2s}
+      .c1{animation:comet1 9s linear infinite 0s}
+      .c2{animation:comet2 13s linear infinite 4s}
+      .c3{animation:comet3 7s linear infinite 7s}
+      .nb{animation:nebula 6s ease-in-out infinite}
+      .title{animation:fadeup 1.4s ease-out 0.2s both}
+      .sub{animation:fadeup 1.4s ease-out 0.7s both}
+    </style>
+  </defs>
+
+  <!-- Deep space background -->
+  <rect width="900" height="280" fill="url(#bg)"/>
+
+  <!-- Nebula glows -->
+  <ellipse cx="160" cy="100" rx="200" ry="120" fill="url(#glow1)" class="nb"/>
+  <ellipse cx="740" cy="180" rx="180" ry="100" fill="url(#glow2)" class="nb" style="animation-delay:3s"/>
+
+  <!-- Stars — varying sizes and twinkle classes -->
+  <circle cx="45"  cy="18"  r="1.2" fill="white" class="t1"/>
+  <circle cx="120" cy="35"  r="0.8" fill="white" class="t2"/>
+  <circle cx="200" cy="12"  r="1.4" fill="white" class="t3"/>
+  <circle cx="290" cy="28"  r="0.7" fill="#c4b5fd" class="t4"/>
+  <circle cx="370" cy="8"   r="1.1" fill="white" class="t1"/>
+  <circle cx="440" cy="22"  r="0.9" fill="white" class="t5"/>
+  <circle cx="520" cy="15"  r="1.3" fill="#bfdbfe" class="t2"/>
+  <circle cx="600" cy="30"  r="0.8" fill="white" class="t6"/>
+  <circle cx="680" cy="10"  r="1.5" fill="white" class="t3"/>
+  <circle cx="750" cy="25"  r="0.7" fill="#c4b5fd" class="t7"/>
+  <circle cx="830" cy="18"  r="1.0" fill="white" class="t4"/>
+  <circle cx="880" cy="38"  r="1.2" fill="white" class="t1"/>
+  <circle cx="30"  cy="80"  r="0.9" fill="white" class="t6"/>
+  <circle cx="95"  cy="120" r="1.3" fill="#bfdbfe" class="t2"/>
+  <circle cx="170" cy="200" r="0.8" fill="white" class="t5"/>
+  <circle cx="240" cy="240" r="1.1" fill="white" class="t3"/>
+  <circle cx="320" cy="260" r="0.7" fill="#c4b5fd" class="t8"/>
+  <circle cx="420" cy="255" r="1.4" fill="white" class="t1"/>
+  <circle cx="510" cy="265" r="0.9" fill="white" class="t4"/>
+  <circle cx="590" cy="248" r="1.2" fill="#bfdbfe" class="t2"/>
+  <circle cx="670" cy="258" r="0.8" fill="white" class="t6"/>
+  <circle cx="760" cy="244" r="1.5" fill="white" class="t3"/>
+  <circle cx="845" cy="252" r="0.7" fill="#c4b5fd" class="t7"/>
+  <circle cx="870" cy="180" r="1.1" fill="white" class="t5"/>
+  <circle cx="888" cy="140" r="0.9" fill="white" class="t1"/>
+  <circle cx="860" cy="90"  r="1.3" fill="#bfdbfe" class="t2"/>
+  <circle cx="148" cy="155" r="0.8" fill="white" class="t8"/>
+  <circle cx="56"  cy="230" r="1.0" fill="white" class="t3"/>
+  <circle cx="735" cy="130" r="0.9" fill="#c4b5fd" class="t6"/>
+  <circle cx="490" cy="190" r="0.7" fill="white" class="t4"/>
+  <circle cx="380" cy="175" r="1.2" fill="white" class="t2"/>
+  <circle cx="270" cy="145" r="0.8" fill="#bfdbfe" class="t5"/>
+
+  <!-- Comet 1 — bright with long tail -->
+  <g class="c1">
+    <line x1="60" y1="30" x2="20" y2="20" stroke="url(#ctail1)" stroke-width="1.5" opacity="0.9"/>
+    <circle cx="62" cy="31" r="2" fill="white" opacity="0.95"/>
+    <defs>
+      <linearGradient id="ctail1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="white" stop-opacity="0"/>
+        <stop offset="100%" stop-color="white" stop-opacity="0.8"/>
+      </linearGradient>
+    </defs>
+  </g>
+
+  <!-- Comet 2 — smaller, blueish -->
+  <g class="c2">
+    <line x1="55" y1="60" x2="18" y2="50" stroke="#93c5fd" stroke-width="1" opacity="0.7"/>
+    <circle cx="57" cy="61" r="1.5" fill="#bfdbfe" opacity="0.85"/>
+  </g>
+
+  <!-- Comet 3 — fast, faint -->
+  <g class="c3">
+    <line x1="45" y1="40" x2="15" y2="32" stroke="#e9d5ff" stroke-width="0.8" opacity="0.6"/>
+    <circle cx="47" cy="41" r="1.2" fill="white" opacity="0.7"/>
+  </g>
+
+  <!-- Name -->
+  <text class="title" x="450" y="118"
+    text-anchor="middle"
+    font-family="'Segoe UI', system-ui, sans-serif"
+    font-size="46" font-weight="700" letter-spacing="3"
+    fill="white">
+    Tejasa Yalla
+  </text>
+
+  <!-- Tagline -->
+  <text class="sub" x="450" y="162"
+    text-anchor="middle"
+    font-family="'Segoe UI', system-ui, sans-serif"
+    font-size="16" font-weight="300" letter-spacing="2"
+    fill="#c4b5fd">
+    Senior Software Engineer · Builder · Lifelong Learner
+  </text>
+</svg>
