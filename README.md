@@ -6,17 +6,13 @@
 
 <img align="right" alt="Coding" width="320" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif"/>
 
-```ts
-const tejasa = {
-  role      : "Senior Software Engineer",
-  location  : "Available across the USA 🇺🇸",
-  currently : "Building RAG pipelines & LLM-powered tools",
-  learning  : "AI engineering · Cloud-native · Vector DBs",
-  ask_me    : "Go concurrency · REST APIs · AWS serverless",
-  email     : "tejasa2599@gmail.com",
-  fun_fact  : "I debug with coffee ☕ and fix with intuition ✨"
-};
-```
+Hey! I'm Tejasa — a software engineer who genuinely enjoys building things that work at scale. I've been deep in backend systems, fintech products, and lately I've been having a lot of fun with AI tooling and LLM integrations.
+
+Right now I'm based wherever the work is interesting 🇺🇸 — open to roles across the US.
+
+When I'm not shipping code, I'm probably breaking something to understand how it works, or figuring out how to make the same thing 10x faster. I debug with coffee ☕ and fix with intuition ✨
+
+📬 **tejasa2599@gmail.com**
 
 <br clear="right"/>
 
@@ -61,12 +57,12 @@ const tejasa = {
 
 ---
 
-### 🐍 Watch the snake eat my contributions
+### 🐍 Snake eating my contributions
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TejasaYalla/TejasaYalla/output/github-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TejasaYalla/TejasaYalla/output/github-snake.svg"/>
-  <img alt="github-snake" src="https://raw.githubusercontent.com/TejasaYalla/TejasaYalla/output/github-snake.svg"/>
+  <img width="100%" alt="github-snake" src="https://raw.githubusercontent.com/TejasaYalla/TejasaYalla/output/github-snake-dark.svg"/>
 </picture>
 
 ---
